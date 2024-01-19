@@ -10,7 +10,7 @@ public class VendingMachinePrinter {
         this.machine = machine;
     }
 
-    private String print(){
+    public String print(){
         StringBuilder text = new StringBuilder();
         text.append("VendingMachine\n");
         // TODO: finish this
